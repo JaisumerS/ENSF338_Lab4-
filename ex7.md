@@ -1,0 +1,3 @@
+I.) When we iterate through all the elements in a linked list, its complexity becomes O(n). All calculations that happen wihin the loop is then O(1). Thus, the complexity of the function reverse() given is O(n)
+
+II.) Overall the complexity would still be O(n). But, some changes like the making the logic more simple to reverse the linked list could make the list faster. If we used maybe a while loop, it would not stop until we reach the end of the list. Following that, instead of using new nodes we instead adjust the next pointers in the list. These are the optimization changes that could make it better.
