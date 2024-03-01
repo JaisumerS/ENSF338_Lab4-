@@ -1,6 +1,8 @@
 import time
 import matplotlib.pyplot as plt
 
+#graph takes 1.38 min to load
+
 class Node:
     def __init__(self, data=None):
         self.data = data
